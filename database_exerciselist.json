@@ -1,0 +1,84 @@
+{"exerciseList" : [
+    {
+        "exercise" : "Bicep Curl",
+        "muscle group" : "Arms",
+        "muscle particular" : "Biceps",
+        "push" : "no",
+        "pull" : "yes", 
+        "class" : "any"
+    },
+    {
+        "exercise" : "Hammer Curl",
+        "muscle group" : "Arms",
+        "muscle particular" : "Forearms",
+        "push" : "no",
+        "pull" : "yes", 
+        "class" : "any"
+    },
+    {
+        "exercise" : "Tricep Pushdown",
+        "muscle group" : "Arms",
+        "muscle particular" : "Triceps",
+        "push" : "yes",
+        "pull" : "no", 
+        "class" : "any"
+    },
+    {
+        "exercise" : "Tricep Overhead",
+        "muscle group" : "Arms",
+        "muscle particular" : "Triceps",
+        "push" : "yes",
+        "pull" : "no", 
+        "class" : "any"
+    },
+    {
+        "exercise" : "Deadlift",
+        "muscle group" : "Compound",
+        "muscle particular" : "Compound",
+        "push" : "no",
+        "pull" : "yes", 
+        "class" : "Barbarian"
+    },
+    {
+        "exercise" : "Pull Up",
+        "muscle group" : "Compound",
+        "muscle particular" : "Compound",
+        "push" : "no",
+        "pull" : "yes", 
+        "class" : "monk"
+    },
+    {
+        "exercise" : "Flat Chest Press",
+        "muscle group" : "Chest",
+        "muscle particular" : "Upper Chest",
+        "push" : "yes",
+        "pull" : "no", 
+        "class" : "any"
+    },
+    {
+        "exercise" : "Pec Fly",
+        "muscle group" : "Chest",
+        "muscle particular" : "Lower Chest",
+        "push" : "yes",
+        "pull" : "no", 
+        "class" : "any"
+    },
+    {
+        "exercise" : "Cable Row",
+        "muscle group" : "Back",
+        "muscle particular" : "Lats",
+        "push" : "no",
+        "pull" : "yes", 
+        "class" : "any"
+    },
+    {
+        "exercise" : "Rear Delt Fly",
+        "muscle group" : "Back",
+        "muscle particular" : "Rear Delts",
+        "push" : "no",
+        "pull" : "yes", 
+        "class" : "any"
+    }
+    
+]
+}
