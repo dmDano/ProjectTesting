@@ -1,80 +1,80 @@
 {"exerciseList" : [
     {
-        "exercise" : "Bicep Curl",
-        "muscle group" : "Arms",
-        "muscle particular" : "Biceps",
+        "name" : "Bicep Curl",
+        "group" : "Arms",
+        "muscle" : "Biceps",
         "push" : "no",
         "pull" : "yes", 
         "class" : "any"
     },
     {
-        "exercise" : "Hammer Curl",
-        "muscle group" : "Arms",
-        "muscle particular" : "Forearms",
+        "name" : "Hammer Curl",
+        "group" : "Arms",
+        "muscle" : "Forearms",
         "push" : "no",
         "pull" : "yes", 
         "class" : "any"
     },
     {
-        "exercise" : "Tricep Pushdown",
-        "muscle group" : "Arms",
-        "muscle particular" : "Triceps",
+        "name" : "Tricep Pushdown",
+        "group" : "Arms",
+        "muscle" : "Triceps",
         "push" : "yes",
         "pull" : "no", 
         "class" : "any"
     },
     {
-        "exercise" : "Tricep Overhead",
-        "muscle group" : "Arms",
-        "muscle particular" : "Triceps",
+        "name" : "Tricep Overhead",
+        "group" : "Arms",
+        "muscle" : "Triceps",
         "push" : "yes",
         "pull" : "no", 
         "class" : "any"
     },
     {
-        "exercise" : "Deadlift",
-        "muscle group" : "Compound",
-        "muscle particular" : "Compound",
+        "name" : "Deadlift",
+        "group" : "Compound",
+        "muscle" : "Compound",
         "push" : "no",
         "pull" : "yes", 
         "class" : "Barbarian"
     },
     {
-        "exercise" : "Pull Up",
-        "muscle group" : "Compound",
-        "muscle particular" : "Compound",
+        "name" : "Pull Up",
+        "group" : "Compound",
+        "muscle" : "Compound",
         "push" : "no",
         "pull" : "yes", 
         "class" : "monk"
     },
     {
-        "exercise" : "Flat Chest Press",
-        "muscle group" : "Chest",
-        "muscle particular" : "Upper Chest",
+        "name" : "Flat Chest Press",
+        "group" : "Chest",
+        "muscle" : "Upper Chest",
         "push" : "yes",
         "pull" : "no", 
         "class" : "any"
     },
     {
-        "exercise" : "Pec Fly",
-        "muscle group" : "Chest",
-        "muscle particular" : "Lower Chest",
+        "name" : "Pec Fly",
+        "group" : "Chest",
+        "muscle" : "Lower Chest",
         "push" : "yes",
         "pull" : "no", 
         "class" : "any"
     },
     {
-        "exercise" : "Cable Row",
-        "muscle group" : "Back",
-        "muscle particular" : "Lats",
+        "name" : "Cable Row",
+        "group" : "Back",
+        "muscle" : "Lats",
         "push" : "no",
         "pull" : "yes", 
         "class" : "any"
     },
     {
-        "exercise" : "Rear Delt Fly",
-        "muscle group" : "Back",
-        "muscle particular" : "Rear Delts",
+        "name" : "Rear Delt Fly",
+        "group" : "Back",
+        "muscle" : "Rear Delts",
         "push" : "no",
         "pull" : "yes", 
         "class" : "any"
