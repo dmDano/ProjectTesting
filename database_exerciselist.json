@@ -13,7 +13,7 @@
         "group" : "Arms",
         "details" : {
             "muscle" : "Forearms",
-            "pushOrPullOrPull" : "pull", 
+            "pushOrPull" : "pull", 
             "class" : "any"
         }
     },
