@@ -4,8 +4,7 @@
         "group" : "Arms",
         "details" : {
             "muscle" : "Biceps",
-            "push" : "no",
-            "pull" : "yes", 
+            "pushOrPull" : "pull", 
             "class" : "any"
             }
     },
@@ -14,18 +13,16 @@
         "group" : "Arms",
         "details" : {
             "muscle" : "Forearms",
-            "push" : "no",
-            "pull" : "yes", 
+            "pushOrPullOrPull" : "pull", 
             "class" : "any"
         }
     },
     {
-        "name" : "Tricep Pushdown",
+        "name" : "Tricep Push Down",
         "group" : "Arms",
         "details" :{
             "muscle" : "Triceps",
-            "push" : "yes",
-            "pull" : "no", 
+            "pushOrPull" : "push",
             "class" : "any"
         }
     },
@@ -34,8 +31,7 @@
         "group" : "Arms",
         "details" : {
             "muscle" : "Triceps",
-            "push" : "yes",
-            "pull" : "no", 
+            "pushOrPull" : "push",
             "class" : "any"
         }
     },
@@ -44,8 +40,7 @@
         "group" : "Compound",
         "details" : {
             "muscle" : "Compound",
-            "push" : "no",
-            "pull" : "yes", 
+            "pushOrPull" : "pull", 
             "class" : "Barbarian"
         }
     },
@@ -54,8 +49,7 @@
         "group" : "Compound",
         "details" : {
             "muscle" : "Compound",
-            "push" : "no",
-            "pull" : "yes", 
+            "pushOrPull" : "pull",
             "class" : "monk"
         }
     },
@@ -64,8 +58,7 @@
         "group" : "Chest",
         "details" : {
             "muscle" : "Upper Chest",
-            "push" : "yes",
-            "pull" : "no", 
+            "pushOrPull" : "push",
             "class" : "any"
         }
     },
@@ -74,8 +67,7 @@
         "group" : "Chest",
         "details" : {
             "muscle" : "Lower Chest",
-            "push" : "yes",
-            "pull" : "no", 
+            "pushOrPull" : "push",
             "class" : "any"
         }
     },
@@ -84,8 +76,7 @@
         "group" : "Back",
         "details" : {
             "muscle" : "Lats",
-            "push" : "no",
-            "pull" : "yes", 
+            "pushOrPull" : "pull",
             "class" : "any"
         }
     },
@@ -94,8 +85,7 @@
         "group" : "Back",
         "details" : {
             "muscle" : "Rear Delts",
-            "push" : "no",
-            "pull" : "yes", 
+            "pushOrPull" : "push",
             "class" : "any"
         }
     }
