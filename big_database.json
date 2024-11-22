@@ -40,7 +40,6 @@
       "level": "Advanced",
       "description": "A powerful compound movement that engages multiple muscle groups."
     },
-    // Add more exercises here in the same format
     {
       "id": 6,
       "name": "Lunges",
@@ -161,7 +160,6 @@
       "level": "Advanced",
       "description": "An explosive movement that builds power and agility."
     },
-    // Continue adding exercises until you reach 100
     {
       "id": 21,
       "name": "Dumbbell Row",
