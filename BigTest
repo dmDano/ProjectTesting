@@ -1,0 +1,806 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Push-Up",
+      "equipment": "Bodyweight",
+      "muscle_group": "Chest",
+      "level": "Beginner",
+      "description": "A basic exercise to strengthen the chest and triceps."
+    },
+    {
+      "id": 2,
+      "name": "Pull-Up",
+      "equipment": "Bar",
+      "muscle_group": "Back",
+      "level": "Intermediate",
+      "description": "A compound exercise for building upper body strength."
+    },
+    {
+      "id": 3,
+      "name": "Squat",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Beginner",
+      "description": "Great for building leg strength and stability."
+    },
+    {
+      "id": 4,
+      "name": "Dumbbell Bench Press",
+      "equipment": "Dumbbells",
+      "muscle_group": "Chest",
+      "level": "Intermediate",
+      "description": "Targets the chest with added range of motion."
+    },
+    {
+      "id": 5,
+      "name": "Deadlift",
+      "equipment": "Barbell",
+      "muscle_group": "Full Body",
+      "level": "Advanced",
+      "description": "A powerful compound movement that engages multiple muscle groups."
+    },
+    // Add more exercises here in the same format
+    {
+      "id": 6,
+      "name": "Lunges",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "A unilateral exercise that targets the legs and glutes."
+    },
+    {
+      "id": 7,
+      "name": "Plank",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core",
+      "level": "Beginner",
+      "description": "A core-strengthening exercise that also improves stability."
+    },
+    {
+      "id": 8,
+      "name": "Burpees",
+      "equipment": "Bodyweight",
+      "muscle_group": "Full Body",
+      "level": "Intermediate",
+      "description": "A full-body exercise that combines a squat, push-up, and jump."
+    },
+    {
+      "id": 9,
+      "name": "Kettlebell Swing",
+      "equipment": "Kettlebell",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "A dynamic exercise focusing on the posterior chain."
+    },
+    {
+      "id": 10,
+      "name": "Bicep Curl",
+      "equipment": "Dumbbells",
+      "muscle_group": "Arms",
+      "level": "Beginner",
+      "description": "A simple isolation exercise for the biceps."
+    },
+    {
+      "id": 11,
+      "name": "Tricep Dips",
+      "equipment": "Bench",
+      "muscle_group": "Arms",
+      "level": "Beginner",
+      "description": "An effective exercise to target the triceps."
+    },
+    {
+      "id": 12,
+      "name": "Leg Press",
+      "equipment": "Leg Press Machine",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "A compound movement to strengthen the entire lower body."
+    },
+    {
+      "id": 13,
+      "name": "Shoulder Press",
+      "equipment": "Dumbbells",
+      "muscle_group": "Shoulders",
+      "level": "Intermediate",
+      "description": "Targets the shoulders and upper chest."
+    },
+    {
+      "id": 14,
+      "name": "Lat Pull-Down",
+      "equipment": "Pull-Down Machine",
+      "muscle_group": "Back",
+      "level": "Intermediate",
+      "description": "Strengthens the back and biceps."
+    },
+    {
+      "id": 15,
+      "name": "Russian Twist",
+      "equipment": "Medicine Ball",
+      "muscle_group": "Core",
+      "level": "Intermediate",
+      "description": "A rotational exercise for the obliques."
+    },
+    {
+      "id": 16,
+      "name": "Mountain Climbers",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core",
+      "level": "Beginner",
+      "description": "A dynamic exercise to increase heart rate and core stability."
+    },
+    {
+      "id": 17,
+      "name": "Leg Raises",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core",
+      "level": "Beginner",
+      "description": "An effective exercise to target the lower abs."
+    },
+    {
+      "id": 18,
+      "name": "Chest Fly",
+      "equipment": "Dumbbells",
+      "muscle_group": "Chest",
+      "level": "Intermediate",
+      "description": "Helps to expand the chest without heavy weight."
+    },
+    {
+      "id": 19,
+      "name": "Glute Bridge",
+      "equipment": "Bodyweight",
+      "muscle_group": "Glutes",
+      "level": "Beginner",
+      "description": "A simple movement to strengthen the glutes and hamstrings."
+    },
+    {
+      "id": 20,
+      "name": "Box Jump",
+      "equipment": "Box",
+      "muscle_group": "Legs",
+      "level": "Advanced",
+      "description": "An explosive movement that builds power and agility."
+    },
+    // Continue adding exercises until you reach 100
+    {
+      "id": 21,
+      "name": "Dumbbell Row",
+      "equipment": "Dumbbells",
+      "muscle_group": "Back",
+      "level": "Intermediate",
+      "description": "Targets the upper back and improves posture."
+    },
+    {
+      "id": 22,
+      "name": "Overhead Tricep Extension",
+      "equipment": "Dumbbell",
+      "muscle_group": "Arms",
+      "level": "Intermediate",
+      "description": "An isolation exercise to work the triceps."
+    },
+    {
+      "id": 23,
+      "name": "Sumo Squat",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "Targets the inner thighs along with the glutes."
+    },
+    {
+      "id": 24,
+      "name": "Incline Push-Up",
+      "equipment": "Bodyweight",
+      "muscle_group": "Chest",
+      "level": "Beginner",
+      "description": "A variation of the push-up with reduced difficulty."
+    },
+    {
+      "id": 25,
+      "name": "Seated Cable Row",
+      "equipment": "Cable Machine",
+      "muscle_group": "Back",
+      "level": "Intermediate",
+      "description": "Builds strength in the upper and middle back."
+    },
+    {
+      "id": 26,
+      "name": "Wall Sit",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Beginner",
+      "description": "An isometric exercise targeting the quads."
+    },
+    {
+      "id": 27,
+      "name": "Single-Leg Deadlift",
+      "equipment": "Dumbbells",
+      "muscle_group": "Back, Legs",
+      "level": "Advanced",
+      "description": "Improves balance while working the posterior chain."
+    },
+    {
+      "id": 28,
+      "name": "T Push-Up",
+      "equipment": "Bodyweight",
+      "muscle_group": "Chest, Core",
+      "level": "Intermediate",
+      "description": "A push-up with a rotation, adding core stability."
+    },
+    {
+      "id": 29,
+      "name": "Lateral Raise",
+      "equipment": "Dumbbells",
+      "muscle_group": "Shoulders",
+      "level": "Beginner",
+      "description": "Isolates the shoulder muscles for better definition."
+    },
+    {
+      "id": 30,
+      "name": "Calf Raise",
+      "equipment": "Bodyweight",
+      "muscle_group": "Calves",
+      "level": "Beginner",
+      "description": "Targets the calf muscles for better strength and appearance."
+    },
+    {
+      "id": 31,
+      "name": "Medicine Ball Slam",
+      "equipment": "Medicine Ball",
+      "muscle_group": "Full Body",
+      "level": "Intermediate",
+      "description": "Involves power and explosive movements for cardio and strength."
+    },
+    {
+      "id": 32,
+      "name": "Shoulder Shrugs",
+      "equipment": "Dumbbells",
+      "muscle_group": "Shoulders",
+      "level": "Beginner",
+      "description": "Targets the upper trapezius for shoulder development."
+    },
+    {
+      "id": 33,
+      "name": "Flutter Kicks",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core",
+      "level": "Beginner",
+      "description": "A core exercise focusing on the lower abs."
+    },
+    {
+      "id": 34,
+      "name": "Push-Up to Side Plank",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core, Chest",
+      "level": "Advanced",
+      "description": "A combination exercise that strengthens the chest and core."
+    },
+    {
+      "id": 35,
+      "name": "Hip Thrust",
+      "equipment": "Barbell",
+      "muscle_group": "Glutes",
+      "level": "Intermediate",
+      "description": "Targets the glutes effectively for building muscle."
+    },
+    {
+      "id": 36,
+      "name": "Pike Push-Up",
+      "equipment": "Bodyweight",
+      "muscle_group": "Shoulders",
+      "level": "Advanced",
+      "description": "A challenging push-up variation to target the shoulders."
+    },
+    {
+      "id": 37,
+      "name": "Side Lunges",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "Works the inner thighs and helps with lateral strength."
+    },
+    {
+      "id": 38,
+      "name": "Snatch",
+      "equipment": "Barbell",
+      "muscle_group": "Full Body",
+      "level": "Advanced",
+      "description": "A complex full-body movement that requires technique."
+    },
+    {
+      "id": 39,
+      "name": "Goblet Squat",
+      "equipment": "Kettlebell",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "Squats with a kettlebell for improved form and balance."
+    },
+    {
+      "id": 40,
+      "name": "Lying Leg Curls",
+      "equipment": "Leg Curl Machine",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "Isolates the hamstrings for strength development."
+    },
+    {
+      "id": 41,
+      "name": "T-Bar Row",
+      "equipment": "T-Bar Row Machine",
+      "muscle_group": "Back",
+      "level": "Intermediate",
+      "description": "Strengthens the upper back and lats."
+    },
+    {
+      "id": 42,
+      "name": "Romanian Deadlift",
+      "equipment": "Barbell",
+      "muscle_group": "Legs, Back",
+      "level": "Advanced",
+      "description": "Focuses on hamstrings and glutes with a hip hinge motion."
+    },
+    {
+      "id": 43,
+      "name": "Cable Tricep Pushdown",
+      "equipment": "Cable Machine",
+      "muscle_group": "Arms",
+      "level": "Intermediate",
+      "description": "An isolation movement to target the triceps."
+    },
+    {
+      "id": 44,
+      "name": "Face Pulls",
+      "equipment": "Cable Machine",
+      "muscle_group": "Shoulders",
+      "level": "Intermediate",
+      "description": "Helps improve shoulder health and posture."
+    },
+    {
+      "id": 45,
+      "name": "Clamshells",
+      "equipment": "Bodyweight",
+      "muscle_group": "Glutes",
+      "level": "Beginner",
+      "description": "Targets the outer glutes and hip stabilizers."
+    },
+    {
+      "id": 46,
+      "name": "Skater Jumps",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "A plyometric exercise that enhances lateral movement."
+    },
+    {
+      "id": 47,
+      "name": "Dumbbell Chest Press",
+      "equipment": "Dumbbells",
+      "muscle_group": "Chest",
+      "level": "Intermediate",
+      "description": "A foundational exercise for building chest strength."
+    },
+    {
+      "id": 48,
+      "name": "Reverse Mountain Climbers",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core, Legs",
+      "level": "Intermediate",
+      "description": "Targets the core while also working the legs."
+    },
+    {
+      "id": 49,
+      "name": "Sledgehammer Swing",
+      "equipment": "Sledgehammer",
+      "muscle_group": "Full Body",
+      "level": "Advanced",
+      "description": "A dynamic full-body workout that builds strength and power."
+    },
+    {
+      "id": 50,
+      "name": "Pistol Squat",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Advanced",
+      "description": "A challenging single-leg squat requiring strength and balance."
+    },
+    {
+      "id": 51,
+      "name": "Seated Dumbbell Shoulder Press",
+      "equipment": "Dumbbells",
+      "muscle_group": "Shoulders",
+      "level": "Intermediate",
+      "description": "A seated approach to shoulder pressing that reduces back strain."
+    },
+    {
+      "id": 52,
+      "name": "Star Jumps",
+      "equipment": "Bodyweight",
+      "muscle_group": "Full Body",
+      "level": "Advanced",
+      "description": "Explosively improves coordination and cardio fitness."
+    },
+    {
+      "id": 53,
+      "name": "Dumbbell Fly",
+      "equipment": "Dumbbells",
+      "muscle_group": "Chest",
+      "level": "Intermediate",
+      "description": "Isolates pec muscles for muscle building."
+    },
+    {
+      "id": 54,
+      "name": "Chest Press Machine",
+      "equipment": "Machine",
+      "muscle_group": "Chest",
+      "level": "Beginner",
+      "description": "A machine that helps develop chest strength with safety."
+    },
+    {
+      "id": 55,
+      "name": "Box Squat",
+      "equipment": "Box",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "Teaches squat form and ensures depth."
+    },
+    {
+      "id": 56,
+      "name": "Kettlebell Goblet Squat",
+      "equipment": "Kettlebell",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "A squat variation targeting the quads and glutes with kettlebell."
+    },
+    {
+      "id": 57,
+      "name": "Reverse Hyperextension",
+      "equipment": "Reverse Hyper Machine",
+      "muscle_group": "Legs, Back",
+      "level": "Intermediate",
+      "description": "Targets the hamstrings and lower back with controlled movement."
+    },
+    {
+      "id": 58,
+      "name": "Close-Grip Bench Press",
+      "equipment": "Barbell",
+      "muscle_group": "Arms, Chest",
+      "level": "Intermediate",
+      "description": "Focuses on the triceps while also working the chest."
+    },
+    {
+      "id": 59,
+      "name": "Lateral Band Walk",
+      "equipment": "Resistance Band",
+      "muscle_group": "Legs, Glutes",
+      "level": "Beginner",
+      "description": "Improves lateral strength and hip stability."
+    },
+    {
+      "id": 60,
+      "name": "Yoga Push-Up",
+      "equipment": "Bodyweight",
+      "muscle_group": "Chest, Core",
+      "level": "Intermediate",
+      "description": "Combines yoga with building upper body strength."
+    },
+    {
+      "id": 61,
+      "name": "Dead Bug",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core",
+      "level": "Beginner",
+      "description": "Improves core stability and coordination."
+    },
+    {
+      "id": 62,
+      "name": "Frog Jump",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs, Full Body",
+      "level": "Intermediate",
+      "description": "A plyometric leg exercise that boosts lower-body power."
+    },
+    {
+      "id": 63,
+      "name": "Battle Ropes",
+      "equipment": "Battle Ropes",
+      "muscle_group": "Full Body",
+      "level": "Intermediate",
+      "description": "A high-intensity workout that improves endurance and strength."
+    },
+    {
+      "id": 64,
+      "name": "Kettlebell Tricep Extension",
+      "equipment": "Kettlebell",
+      "muscle_group": "Arms",
+      "level": "Intermediate",
+      "description": "A kettlebell exercise that isolates the triceps."
+    },
+    {
+      "id": 65,
+      "name": "Dumbbell Step-Up",
+      "equipment": "Dumbbells",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "A lower body exercise that develops strength and stability."
+    },
+    {
+      "id": 66,
+      "name": "Weighted Crunch",
+      "equipment": "Weight Plate",
+      "muscle_group": "Core",
+      "level": "Intermediate",
+      "description": "An ab exercise that helps to build muscle."
+    },
+    {
+      "id": 67,
+      "name": "Lying Dumbbell Tricep Extension",
+      "equipment": "Dumbbells",
+      "muscle_group": "Arms",
+      "level": "Intermediate",
+      "description": "A lying position exercise to target the triceps effectively."
+    },
+    {
+      "id": 68,
+      "name": "Barbell Back Squat",
+      "equipment": "Barbell",
+      "muscle_group": "Legs",
+      "level": "Advanced",
+      "description": "The primary exercise for building leg strength."
+    },
+    {
+      "id": 69,
+      "name": "Inverted Row",
+      "equipment": "Smith Machine",
+      "muscle_group": "Back, Arms",
+      "level": "Intermediate",
+      "description": "A bodyweight exercise that targets the back and biceps."
+    },
+    {
+      "id": 70,
+      "name": "Sissy Squat",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs",
+      "level": "Advanced",
+      "description": "An advanced squat variation that isolates the quads."
+    },
+    {
+      "id": 71,
+      "name": "Hip Abduction Machine",
+      "equipment": "Machine",
+      "muscle_group": "Legs, Glutes",
+      "level": "Beginner",
+      "description": "Targets the outer hips and glutes."
+    },
+    {
+      "id": 72,
+      "name": "Plyometric Box Jump",
+      "equipment": "Box",
+      "muscle_group": "Legs, Full Body",
+      "level": "Advanced",
+      "description": "A high-intensity exercise for building explosive power."
+    },
+    {
+      "id": 73,
+      "name": "Farmer's Walk",
+      "equipment": "Dumbbells",
+      "muscle_group": "Full Body",
+      "level": "Intermediate",
+      "description": "Improves grip strength and stability while working multiple muscles."
+    },
+    {
+      "id": 74,
+      "name": "Chin-Up",
+      "equipment": "Bar",
+      "muscle_group": "Back, Arms",
+      "level": "Advanced",
+      "description": "Similar to a pull-up but targets the biceps more."
+    },
+    {
+      "id": 75,
+      "name": "Band Pull Aparts",
+      "equipment": "Resistance Band",
+      "muscle_group": "Shoulders, Upper Back",
+      "level": "Beginner",
+      "description": "Strengthens upper back and rear deltoids with resistance bands."
+    },
+    {
+      "id": 76,
+      "name": "Band Resisted Lateral Walk",
+      "equipment": "Resistance Band",
+      "muscle_group": "Legs, Glutes",
+      "level": "Beginner",
+      "description": "Improves hip strength and stability with resistance bands."
+    },
+    {
+      "id": 77,
+      "name": "Barbell Bench Press",
+      "equipment": "Barbell",
+      "muscle_group": "Chest",
+      "level": "Advanced",
+      "description": "A foundational lift for chest strength."
+    },
+    {
+      "id": 78,
+      "name": "Seated Leg Curl",
+      "equipment": "Machine",
+      "muscle_group": "Legs, Hamstrings",
+      "level": "Beginner",
+      "description": "A machine exercise that isolates the hamstrings."
+    },
+    {
+      "id": 79,
+      "name": "Dumbbell Snatch",
+      "equipment": "Dumbbell",
+      "muscle_group": "Full Body",
+      "level": "Advanced",
+      "description": "A dynamic movement that targets various muscle groups."
+    },
+    {
+      "id": 80,
+      "name": "Front Squat",
+      "equipment": "Barbell",
+      "muscle_group": "Legs",
+      "level": "Advanced",
+      "description": "A squat variation that emphasizes the quads and upper body."
+    },
+    {
+      "id": 81,
+      "name": "Wall Ball",
+      "equipment": "Medicine Ball",
+      "muscle_group": "Full Body",
+      "level": "Intermediate",
+      "description": "Combines a squat and dynamic ball movement for conditioning."
+    },
+    {
+      "id": 82,
+      "name": "Cable Lateral Raise",
+      "equipment": "Cable Machine",
+      "muscle_group": "Shoulders",
+      "level": "Intermediate",
+      "description": "Uses cables to isolate the shoulders."
+    },
+    {
+      "id": 83,
+      "name": "Barbell Row",
+      "equipment": "Barbell",
+      "muscle_group": "Back",
+      "level": "Advanced",
+      "description": "A compound movement targeting the back musculature."
+    },
+    {
+      "id": 84,
+      "name": "Goblet Romanian Deadlift",
+      "equipment": "Kettlebell",
+      "muscle_group": "Legs, Glutes",
+      "level": "Intermediate",
+      "description": "A variation of Romanian deadlifts using a kettlebell."
+    },
+    {
+      "id": 85,
+      "name": "Dumbbell Shoulder Fly",
+      "equipment": "Dumbbells",
+      "muscle_group": "Shoulders",
+      "level": "Intermediate",
+      "description": "An isolation exercise for shoulder development."
+    },
+    {
+      "id": 86,
+      "name": "Kettlebell Clean",
+      "equipment": "Kettlebell",
+      "muscle_group": "Full Body",
+      "level": "Advanced",
+      "description": "A strength-building exercise that involves momentum."
+    },
+    {
+      "id": 87,
+      "name": "Bulgarian Split Squat",
+      "equipment": "Bodyweight",
+      "muscle_group": "Legs, Glutes",
+      "level": "Advanced",
+      "description": "A powerful single-leg exercise that targets the quads."
+    },
+    {
+      "id": 88,
+      "name": "Kettlebell Side Bend",
+      "equipment": "Kettlebell",
+      "muscle_group": "Core",
+      "level": "Intermediate",
+      "description": "Targets oblique muscles for improved core strength."
+    },
+    {
+      "id": 89,
+      "name": "Barbell Curl",
+      "equipment": "Barbell",
+      "muscle_group": "Arms",
+      "level": "Beginner",
+      "description": "Focuses on building bicep strength."
+    },
+    {
+      "id": 90,
+      "name": "Cable Chest Fly",
+      "equipment": "Cable Machine",
+      "muscle_group": "Chest",
+      "level": "Intermediate",
+      "description": "Targets pectoral muscles with cable resistance."
+    },
+    {
+      "id": 91,
+      "name": "Side Plank",
+      "equipment": "Bodyweight",
+      "muscle_group": "Core",
+      "level": "Beginner",
+      "description": "Strengthens the obliques and core consistency."
+    },
+    {
+      "id": 92,
+      "name": "Hammer Curl",
+      "equipment": "Dumbbells",
+      "muscle_group": "Arms",
+      "level": "Intermediate",
+      "description": "A variation of curls that targets the brachialis."
+    },
+    {
+      "id": 93,
+      "name": "Farmer's Carry",
+      "equipment": "Dumbbells",
+      "muscle_group": "Full Body",
+      "level": "Intermediate",
+      "description": "Improves grip strength and overall stability."
+    },
+    {
+      "id": 94,
+      "name": "Box Jump Lateral",
+      "equipment": "Box",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "A lateral plyometric movement that develops agility."
+    },
+    {
+      "id": 95,
+      "name": "Stability Ball Rollout",
+      "equipment": "Stability Ball",
+      "muscle_group": "Core",
+      "level": "Intermediate",
+      "description": "Engages the core through extension and retraction."
+    },
+    {
+      "id": 96,
+      "name": "Zercher Squat",
+      "equipment": "Barbell",
+      "muscle_group": "Legs",
+      "level": "Advanced",
+      "description": "Targets quads and core while promoting upright torso."
+    },
+    {
+      "id": 97,
+      "name": "Battle Rope Wave",
+      "equipment": "Battle Ropes",
+      "muscle_group": "Full Body",
+      "level": "Advanced",
+      "description": "A high-intensity cardio workout that challenges endurance."
+    },
+    {
+      "id": 98,
+      "name": "Sled Push",
+      "equipment": "Sled",
+      "muscle_group": "Legs, Full Body",
+      "level": "Advanced",
+      "description": "A functional strength exercise improving power and speed."
+    },
+    {
+      "id": 99,
+      "name": "Hip Extension",
+      "equipment": "Machine",
+      "muscle_group": "Glutes, Hamstrings",
+      "level": "Beginner",
+      "description": "Targets the glutes and hamstrings for muscle building."
+    },
+    {
+      "id": 100,
+      "name": "Weighted Step-Up",
+      "equipment": "Weight Plate",
+      "muscle_group": "Legs",
+      "level": "Intermediate",
+      "description": "Improves leg strength and coordination."
+    }
+  ]
+}
